@@ -13,4 +13,10 @@ $(function () {
         overlay.fadeIn();
     });
 
+    // fading out to the main page by clicking on the overlay
+    overlay.click(function () {
+        overlay.fadeOut();
+        frame.fadeOut();
+    });
+
 });
