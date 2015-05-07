@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height:  56px;
+    background: black;
+}
+
+#menu {
+    color: white;
+}
+
+#menu > h2 {
+    margin: 0;
+}
+
+#wrapper {
+    width: 800px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+
+#portfolio {
+    list-style-type: none;
+        padding-left: 0px;
+}
+
+#portfolio li {
+    display: inline-block;
+    margin: 10px 5px 10px 5px;
+}
+
+#portfolio li img {
+    width: 240px;
+    height: 170px;
+}
+
+#frame {
+    display: none;
+    background: white;
+    width: 650px;
+    height: 450px;
+    position: fixed;
+    left: 200px;
+    top: 100px;
+}
+
+#frame img {
+    width: 600px;
+    height: 400px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: black;
+    opacity: 0.8;
+}
+
+/*
+.popup {
+    width: 500px;
+    height: 300px;
+}
+*/
