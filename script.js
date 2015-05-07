@@ -25,4 +25,10 @@ $(function () {
         frame.fadeOut();
     });
 
+    // fading out to the main page by clicking on the frame
+    frame.click(function () {
+        overlay.fadeOut();
+        frame.fadeOut();
+    });
+
 });
